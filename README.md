@@ -10,7 +10,7 @@ Stock prices are hard to predict because they are not only affected by the perfo
 
 ## Executive Summary
 
-The goal of my projcet is to build a **time series regression model** that predicts the stock price of RGR. The data I am using would be historical stock price from [Yahoo Finance](https://finance.yahoo.com/quote/RGR/history?p=RGR), twitter posts scraped from [twitter](https://twitter.com/), subreddit posts mentioned about gun control, and also the financial reports to [SEC](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000095029&type=&dateb=&owner=exclude&count=100). I will do sentiment analysis on the text data and time series modeling on the historical stock price data. The model will be evaluated using MSE.
+The goal of my project is to build a **time series regression model** that predicts the stock price of RGR. The data I am using would be historical stock price from [Yahoo Finance](https://finance.yahoo.com/quote/RGR/history?p=RGR), twitter posts scraped from [twitter](https://twitter.com/), subreddit posts mentioned about gun control, and also the financial reports to [SEC](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000095029&type=&dateb=&owner=exclude&count=100). I will do sentiment analysis on the text data and time series modeling on the historical stock price data. The model will be evaluated using MSE.
 
 ## Software Requirements
 
@@ -66,7 +66,7 @@ The demonstration video can be found [here](https://www.youtube.com/watch?v=sHMi
 ## Improvement
 
 1. More data may help. I built the model on data from 2016 October - 2019 October because scraping Twitter data took a lot of time. So I would like to see how much the models will improve if we have more data.
-2. More useful exogeous variables. I have included 20 features already, but some of them are not helping the model. It seems like the financial reports 10Q, 10k, and 8K don't help much.
+2. More useful exogenous variables. I have included 20 features already, but some of them are not helping the model. It seems like the financial reports 10Q, 10k, and 8K don't help much.
 3. Better models. I did not dig into the popular neural network models due to time limitation. I will definitely check out [LSTM](https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/) and some other models.
 
 
